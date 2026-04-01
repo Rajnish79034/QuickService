@@ -1,0 +1,2 @@
+Testing connection to: mongodb+srv://rkclg09:Rajnish@123@cluster0.3jf7k9z.mongodb.net/?appName=Cluster0
+Connection failed: Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus

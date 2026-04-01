@@ -1,0 +1,10 @@
+import os
+import google.generativeai as genai
+
+GEMINI_API_KEY = "AIzaSyCVur8sweuHf4cowh9Z11HALyueruhwFsA"
+genai.configure(api_key=GEMINI_API_KEY)
+
+print("Available Models:")
+for m in genai.list_models():
+    if 'generateContent' in m.supported_generation_methods:
+        print(f" - {m.name}")
