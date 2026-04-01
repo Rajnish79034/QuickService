@@ -5,7 +5,7 @@ import { Activity, Users, FileText, CheckCircle, Clock, XCircle, LogOut } from '
 import Navbar from '../components/Navbar';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 
 const ProviderPanel = () => {
   const [providerUser, setProviderUser] = useState(null);

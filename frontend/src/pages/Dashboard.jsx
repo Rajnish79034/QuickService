@@ -5,7 +5,7 @@ import axios from 'axios';
 import { MapPin, Search, Zap, Scissors, Flame, Wrench, Sparkles, ChevronRight, Briefcase, Car, Paintbrush, ShieldCheck } from 'lucide-react';
 import Navbar from '../components/Navbar';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 
 // Dynamic icon mapping based on service name content
 const getServiceIcon = (name, className) => {

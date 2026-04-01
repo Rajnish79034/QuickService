@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Star, MapPin, ChevronRight, Clock } from 'lucide-react';
 import Navbar from '../components/Navbar';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 
 const categoryImages = {
   electrician: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=150&h=150&fit=crop',

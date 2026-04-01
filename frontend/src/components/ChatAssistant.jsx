@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { MessageCircle, X, Send, Bot, User } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 
 const ChatAssistant = () => {
   const [open, setOpen] = useState(false);

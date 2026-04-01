@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Calendar, Clock, CheckCircle2, Star, MapPin, Edit3, Zap, Video, Shield } from 'lucide-react';
 import Navbar from '../components/Navbar';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 const timeSlots = ['09:00 AM', '10:30 AM', '12:00 PM', '02:00 PM', '04:30 PM', '06:00 PM'];
 
 // Convert "02:30 PM" -> minutes since midnight (870)

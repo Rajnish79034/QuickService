@@ -5,7 +5,7 @@ import { Users, Briefcase, IndianRupee, TrendingUp } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 
 const mockChartData = [
   { name: 'Mon', revenue: 4000, bookings: 24 },

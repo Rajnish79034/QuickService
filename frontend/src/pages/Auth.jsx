@@ -5,7 +5,7 @@ import { Mail, User, ArrowRight, Lock } from 'lucide-react';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://quickservice-3o93.onrender.com';
 
 const Auth = () => {
   const location = useLocation();
